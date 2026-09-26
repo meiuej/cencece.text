@@ -1,0 +1,7 @@
+.DS_Store
+**/.DS_Store
+
+# Source copies retained locally; optimized WebP files are published.
+chenterce/dist/assets/article-youth-dissent/*.png
+chenterce/dist/assets/article-youth-dissent/scarlet-swan.webp
+chenterce/dist/assets/alabuga.pdf
