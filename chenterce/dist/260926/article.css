@@ -72,3 +72,9 @@ footer{display:flex;justify-content:space-between;margin-top:80px;padding-top:24
 .support-card h2{margin:0;font-size:23.2px;line-height:1.2;font-weight:500;font-variation-settings:"wdth" 25}
 .article .support-card p{margin:0;font-size:31.5px;line-height:1.15;font-weight:800;font-variation-settings:"wdth" 41;letter-spacing:0}
 @media(max-width:800px){.support-card h2{font-size:18px}.article .support-card p{font-size:18px;line-height:1.3}}
+
+.site-footer{display:block}
+.footer-top{display:flex;justify-content:space-between;gap:20px}
+.legal{margin-top:24px;max-width:760px;font-size:12px;line-height:1.6;text-align:left;font-weight:400;font-variation-settings:"wdth" 100;color:#acacac}
+.legal p,.article .legal p{margin:0 0 6px;letter-spacing:0}
+.legal p:first-child{font-weight:650}
