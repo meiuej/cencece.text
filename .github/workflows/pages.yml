@@ -23,6 +23,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Validate short article URLs
+        run: python3 chenterce/scripts/check_urls.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
